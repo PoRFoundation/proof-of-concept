@@ -1,8 +1,258 @@
+
 <html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+
+  #site-title {
+    color:#fff2fc;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+  }
+  body {
+    background-color: #fff2e5;
+    padding-top: 160px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Playfair Display', serif;
+  }
+  h1 {
+          color:#1C281F;
+          font-size: 2.4em;
+          font-family: 'Playfair Display', serif;
+          font-weight: 200;
+          line-height: 1;
+     }
+
+   h2 {
+           color:#1C281F;
+           margin-left: 1%;
+           font-size: 1.5em;
+           font-family: 'Playfair Display', serif;
+      }
+
+
+   h3 {
+           color:#1C281F;
+           margin-left: 2%;
+           font-size: 1.4em;
+           font-family: 'Playfair Display', serif;
+      }
+
+   h4 {
+           color:#1C281F;
+           margin-left: 3%;
+           font-size: 1.3em;
+           font-family: 'Playfair Display', serif;
+      }
+
+
+    p {
+        color:#1C281F;
+        font-size: 1em;
+        font-family: 'Playfair Display', serif;
+       }
+
+       a {
+           font-size: 1em;
+           color:#1C281F;
+           font-family:'Playfair Display', serif;
+          }
+
+		table {
+			border:2px solid #b3adad;
+			border-collapse:collapse;
+			padding:10px;
+		        margin-left: 2%;
+		        margin-right: 2%;
+		}
+		table th {
+			border:2px solid #b3adad;
+			padding:10px;
+			background: #fff2e5;
+			color: #313030;
+		}
+		table td {
+			border:2px solid #b3adad;
+			text-align:center;
+			padding:10px;
+			background: #fff7f2;
+			color: #313030;
+		}
+
+</style>
   <title>Proof of Reserves Foundation</title>
-  <h1>Proof of Reserves</h1>
-  <h3>The home for guidance and recommendation for self-regulation techniques associated with Proof of Reserves</h3>
-  <p>
-    More coming soon.
-  </p>
+</head>
+<body>
+
+
+  <h1>The Proof Of Reserves Foundation</h1>
+
+  <h2>Mission</h2>
+  <p>To create a transparent home for bar-raising industry members to collaborate on best practices, tooling, language, resources, guidance and voluntary standards surrounding running proof of reserves.</p>
+  
+  <h2>Why?</h2>
+  <p>If a set of private companies attempt to declare that "they do proof of reserves" and they all do it differently, or worse some claim to do it sufficiently to their customers when they actually don't, this adds inefficiency and risk to the entire industry.  This will slow the pace of an entire industry and cost everybody more.  There are valid reasons why custody is necessary, especially for institutions.</p>
+
+<table>
+
+<tr>
+<td>
+Every business shouldn't have to invent proof of reserves.
+</td>
+<td>
+There should be open source technology and service providers ready to help do it right and quickly.
+</td>
+</tr>
+
+<tr>
+<td>
+Every business shouldn't have to teach their customers how to validate their balances and review financial statements.
+</td>
+<td>
+There should be crowd-sourced documentation to help this along.
+</td>
+</tr>
+
+<tr>
+<td>
+A single company or organization shouldn't become the defacto record keeper of who does PoR "correctly".
+</td>
+<td>
+An open forum should track progress and short-comings transparently to compete against the outcome of a corruptible or biased institution.
+</td>
+</tr>
+</table>
+
+<h2>Tactics</h2>
+<h3>Community Driven</h3>
+Everything about this foundation is community driven.
+
+To contribute to this page, please send pull-requests or file issues <a href="https://github.com/PoRFoundation/proof-of-concept">here</a>.
+
+<h3>Glossary</h3>
+The industry needs a glossary, a place where words matter, and translations can be made into other languages, so that industry participants can speak a common language when comparing approaches and technique.  This helps avoid problems when somebody invents their own definitions.
+
+<h4>Real-Time Proof of Reserves</h4>
+The idea that reserves are up to date as of the last block and published concurrently.
+<h4>Convenient Proof</h4>
+When an organization selectively chooses when to do any form of proof of balances, or proof of reserves.  This is better than nothing, however there is risk that it may be gamed.
+<h4>Periodic Proof</h4>
+When a company adheres to a predictable, or increasing, periodicity of reporting their proof of reserves to stakeholders.
+<h4>Proof of Balances</h4>
+Also known as self-attested proof-of-reserve, or proof of assets. In this technique the platform discloses their addresses and provides proof (such as a signed message) that they have access to the associated private key.
+<h4>Proof of Liabilities</h4>
+An area of ongoing research.  There are no known technical ways to proove liabilities encumbering on-chain assets.
+<h4>Attestation of Liabilities</h4>
+Some form of qualified statement asserting a comprehensive review of the full picture.
+<h4>List of Addresses</h4>
+A list of public keys containing balances that have not been signed...
+<h4>Community Proof of Reserves</h4>
+An attempt by external actors to analyze blockchain data in order to reverse-engineer a proof of reserve.
+<h4>Negative Balance</h4>
+An account with a negative balance can be included to alter the total sum and compromise the validity of associated proof of reserves.  This forces certain techniques.
+<h4>Coverage Ratio</h4>
+When proof of reserves are coupled with an audit of aggregate off-chain assets & liabilities, this ratio can be calculated to indicate a firm's solvency as well as degree of leverage for firms that choose the additional risks of a fractional reserve model.
+
+
+<h4>Loan Loss Reserves</h4>
+Proof of non-client assets to absorb first loss on loan write downs.
+
+<h4>Counterparty Concentration</h4>
+An anonymized ratio that allows lenders to attest to the diversification of their counterparty risk.
+
+
+
+<h4>On-Chain Asset Encumberances</h4>
+There are many ways in which a digital currency can be unspendable.  Some examples include lost private keys, time-locks, smart-contract features, and multi-sig. 
+
+
+<h3>Tracking the Qualified</h3>
+A crowd-sourced tracker for the strengths and weaknesses companies involved in the conversation.
+
+<ul>
+ <li>Gate.IO - third party, merkel trea, user account hash</li>
+ <li>Ledn - third party, merkel trea, user account hash</li>
+ <li>Kraken - third party, merkel trea, user account hash</li>
+ <li>Coinbase - third party</li>
+ <li>Binance</li>
+ <li>Deribit</li>
+ <li>Grayscale - third party, list of accounts</li>
+ <li>100 more to come here...please help.</li>
+<ul>
+
+<h3>Tracking the Unqualified</h3>
+A crowd-sourced list of recommendations for companies which could be more transparent than they currently are. This process is TBD.
+ 
+<h3>Guidance & Resources for Custodians</h3>
+Material to help custodians meet the expectations of the industry.
+
+<ul>
+<li><a href="https://www.armaninollp.com/software/trustexplorer/proof-of-reserves/">Armanio LLP's Trust Explorer</a></li>
+<li><a href="https://www.hoseki.app/">Hoseki</a></li>
+<li><a href="https://cer.live/">Hoseki</a></li>
+</ul>
+<h3>Guidance & Resources for Consumers</h3>
+Educational resources intended for you to raise expectations from the institutions you rely on for custody.
+
+
+<h3>Guidance & Resources for Technologists</h3>
+Material to help with developers building related technical solutions, eg.  Data Engineering, Customer UX, surrounding admin tooling.
+
+<h3>Governance & Process</h3>
+How should this foundation make decisions, cover costs, and measure it's impact?
+
+How should it frame inadequacies and adapt?
+
+<h3>Inspiration & References</h3>
+
+Note that links are not endorsements. For instance, the CoinMarketCap related links, are provided to illustrate why this foundation is needed.  CoinMarketCap is a biased agent slanting the competition, endorsing Binance, Bitfinex unfairly at the expense of Kraken and others.  Cer.Live is not up to date, nor can it be given that they have an opaque process for submissions.
+
+<ul>
+<li><a href="https://insights.deribit.com/exchange-updates/deribit-wallet-holdings/">Wallet Holdings</a>, Deribit, 2022/11/10</li>
+<li><a href="https://vitalik.ca/general/2022/11/19/proof_of_solvency.html">Having a safe CEX: proof of solvency and beyond</a>, Vitalik Vuterin, 2022/11/19</li>
+<li><a href="https://www.forbes.com/sites/javierpaz/2022/11/23/coinmarketcap-proof-of-reserves-addition-not-as-sophisticated-as-market-requires/?sh=12b4178e532f">CoinMarketCap Proof Of Reserves Addition Not As Sophisticated As Market Requires</a>, Javier Paz, Forbes, 2022/11/23</li>
+<li><a href="https://cer.live/">Top Crypto Exchanges Ranked by Proof of Reserves</a>, cer.live, 2022</li>
+<li><a href="https://drive.google.com/file/d/1KWSJmVKdUW_DKzP5CU_PPBbnJ0cvLETj/view">The Future of Digital Asset Transparency</a>, Jeremy Querci, Hoseki, 2022</li>
+<li><a href="https://www.kraken.com/proof-of-reserves">Kraken: Proof of Reserves & Commitment to Transparency</a>
+<li><a href="https://www.coinbase.com/blog/how-crypto-companies-can-provide-proof-of-reserves">How crypto companies  can provide proof of reserves</a>, Philip Martin, Coinbase, 2022/11/25</li>
+<li><a href="https://www.binance.com/en/support/announcement/binance-releases-proof-of-reserves-system-0c7a786cbe8c4e108f3301385ab61e39">Binance Releases Proof of Reserves System, Binance, 2022/11/25</li>
+<li><a href="https://markets.businessinsider.com/news/currencies/crypto-proof-of-reserves-what-means-not-enough-ftx-binance-2022-11">Crypto firms are vowing to show proof of reserves after FTX's collapse.  But here's what it really means and why it isn't enough to restore confidence.  Brian Evans, 2022/11/26</a>
+</ul>
+
+<h2>Conversation</h2>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our latest Proof of Reserves attestation has been issued - What does this mean? --&gt; A 🧵👇</p>&mdash; Ledn (@hodlwithLedn) <a href="https://twitter.com/hodlwithLedn/status/1428460936118026247?ref_src=twsrc%5Etfw">August 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What I posted in June 2015 still stands true today - Didn’t we learn anything? <a href="https://t.co/VXYavveXIT">https://t.co/VXYavveXIT</a><br><br>MtGox failure had exchange publish proof of funds/etc for a few months, but people stopped caring and everything went back to what it was.<br><br>Are we going to do that again?</p>&mdash; Mark Karpelès (@MagicalTux) <a href="https://twitter.com/MagicalTux/status/1591828826744836096?ref_src=twsrc%5Etfw">November 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">1. Publish proof of reserves<br>2. Assert+Audit that you don&#39;t deal with anybody who doesn&#39;t<br>3. Make the above regulation via peer pressure.<br><br>Industry can self-regulate.<br><br>This is simple open source software to maintain.</p>&mdash; Jeff (@jmclarty) <a href="https://twitter.com/jmclarty/status/1591869766599380997?ref_src=twsrc%5Etfw">November 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">[NEW TODAY] Due to recent events, investors are understandably inquiring deeper into their crypto investments. In this thread we’ve compiled additional information about the safety and security of the assets held by our digital asset products. <a href="https://t.co/MvTfUoK4o6">https://t.co/MvTfUoK4o6</a> 🧵</p>&mdash; Grayscale (@Grayscale) <a href="https://twitter.com/Grayscale/status/1593737708723118080?ref_src=twsrc%5Etfw">November 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Grayscale GBTC Trust, the largest legal holder of BTC, refuses to provide any Proof of Reserve.<br><br>To begin a community lead effort at transparency for the GBTC holdings, we have taken steps to ID likely GBTC addresses and balances based on public info and blockchain forensics. <a href="https://t.co/WFtOyoCEay">pic.twitter.com/WFtOyoCEay</a></p>&mdash; 🏴∴Ergo∴🏴 (@ErgoBTC) <a href="https://twitter.com/ErgoBTC/status/1594308379182305280?ref_src=twsrc%5Etfw">November 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve spent the last 2 months recapping my thoughts on 2022 &amp; suggestions going forward for intermediaries in the digital asset space. The report builds upon prior transparency concerns &amp; how to mitigate some of WTF happened in 2022 with my team at Hoseki<br> <br>Here&#39;s what we found<br>🧵</p>&mdash; Jeremy (@NegentropyorDie) <a href="https://twitter.com/NegentropyorDie/status/1594717876790865920?ref_src=twsrc%5Etfw">November 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2/2 <a href="https://twitter.com/hashtag/ProofOfReserves?src=hash&amp;ref_src=twsrc%5Etfw">#ProofOfReserves</a> audit must have:<br>1. sum of client liabilities (auditor must exclude negative balances)<br>2. user-verifiable cryptographic proof that each account was included in the sum<br>3. signatures proving that the custodian has control of the wallets<a href="https://t.co/QEZo0DzJfw">https://t.co/QEZo0DzJfw</a></p>&mdash; Jesse Powell (@jespow) <a href="https://twitter.com/jespow/status/1595182525231472640?ref_src=twsrc%5Etfw">November 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Words matter.<br><br>This needs to become the norm... <a href="https://t.co/JRi5uKnTX2">https://t.co/JRi5uKnTX2</a></p>&mdash; Jeff (@jmclarty) <a href="https://twitter.com/jmclarty/status/1595232409519259649?ref_src=twsrc%5Etfw">November 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re excited to see how far we can go as an industry with on-chain accounting and are exploring new ways to prove reserves.<br><br>We&#39;re also announcing a $500k developer grant program to encourage others.<a href="https://t.co/ptzMDfwQCX">https://t.co/ptzMDfwQCX</a></p>&mdash; Coinbase (@coinbase) <a href="https://twitter.com/coinbase/status/1596188655638355968?ref_src=twsrc%5Etfw">November 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here’s how I think about it: if no auditor, then follow the BitMEX PoL scheme (anyone can verify no negative liabilities). If auditor oversight present (as with Kraken) then standards for aggregate PoL verification can be looser <a href="https://t.co/XbmELINWTX">https://t.co/XbmELINWTX</a></p>&mdash; punished nic (@nic__carter) <a href="https://twitter.com/nic__carter/status/1596266276217040896?ref_src=twsrc%5Etfw">November 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">To address questions posed by Jesse P, <br><br>In the report 👇, &quot;Upcoming Plans: Involve third-party auditors to audit PoR results&quot;, for this PoR result.<br><br>I said multiple times publicly, the bottleneck was the auditors has a few weeks wait. We move forward in incremental steps. 1/2 <a href="https://t.co/BTNa2rl3XB">https://t.co/BTNa2rl3XB</a></p>&mdash; CZ 🔶 Binance (@cz_binance) <a href="https://twitter.com/cz_binance/status/1596391586036080641?ref_src=twsrc%5Etfw">November 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2>Anti-Tactics</h2>
+<ul>
+<li>Regional Advice - This foundation is global and borderless. 
+<li>Profit - If collaboration picks up, a value-for-value model will hopefully keep start and keep a foundation going.
+<li>Gate Keep - Manipulate outcomes by creating unecessary hurdles or opaque processes
+</ul>
+
+</body>
 </html>
